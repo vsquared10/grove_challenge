@@ -18,7 +18,7 @@ The script can run with a specified date range or without one. The default value
 
 `python NEO_pipeline.py <output_filepath> <start_date> <end_date>`
 
-This will generate a .csv file of all "potentially hazardous asteroids" as defined by NASA[https://api.nasa.gov/api.html#NeoWS].
+This will generate a .csv file of all "potentially hazardous asteroids" as defined by [NASA](https://api.nasa.gov/api.html#NeoWS).
 
 ## Additional Notes:
 
