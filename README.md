@@ -18,7 +18,10 @@ The script can run with a specified date range or without one. The default value
 
 `python NEO_pipeline.py <output_filepath> <start_date> <end_date>`
 
-This will generate a .csv file of all "potentially hazardous asteroids" as defined by [NASA](https://api.nasa.gov/api.html#NeoWS).
+This will generate a .csv file of all "potentially hazardous asteroids" as defined by [NASA](https://api.nasa.gov/api.html#NeoWS) within the specified or default date range. The column format is `asteroid id`, `close_approach_date`, & `miles_from_earth`.
++ asteroid id = a UUID for the asteroid
++ close approach date = when the asteroid is/was schedule to be closest to earth. Unclear what timezone, but best guess would be UTC.
++ miles from earth = how close the object came to Earth. It's unclear if that's mileage to a "bullseye" direct hit to Earth or the distance to the farthest point from Earth that the NEO would be unable to escape Earth's gravitational pull. Best guess would be the latter.
 
 ## Additional Notes:
 
